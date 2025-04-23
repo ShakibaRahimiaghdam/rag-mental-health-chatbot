@@ -97,4 +97,4 @@ I gratefully acknowledge **Md Kaif** for preparing and sharing the labeled menta
 
 ## 🙌 Contributors
 This project is developed as part of a collaborative initiative under Omdena.
-If you have any feedback, comments, or questions, feel free to reach out to me directly via [GitHub Discussions](https://github.com/ShakibaRahimiaghdam/rag-mental-health-chatbot/discussions) or by creating an [issue](https://github.com/ShakibaRahimiaghdam/rag-mental-health-chatbot/issues).
+If you have any feedback, comments, or questions, feel free to reach out to me directly via [GitHub Discussions](https://github.com/ShakibaRahimiaghdam/rag-mental-health-chatbot/discussions/1) or by creating an [issue](https://github.com/ShakibaRahimiaghdam/rag-mental-health-chatbot/issues).
