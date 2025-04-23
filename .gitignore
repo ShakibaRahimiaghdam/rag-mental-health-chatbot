@@ -1,0 +1,21 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Ignore environment configuration
+.env
+
+# Ignore virtual environments
+.venv/
+
+# Ignore Streamlit generated files
+.feedback_log.csv
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code configuration files
+.vscode/

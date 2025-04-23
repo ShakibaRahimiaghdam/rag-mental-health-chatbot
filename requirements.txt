@@ -1,0 +1,17 @@
+# Core packages
+streamlit
+pandas
+python-dotenv
+torch
+
+# FAISS for vector store
+faiss-cpu
+
+# LlamaIndex core and plugins
+llama-index
+llama-index-llms-groq
+llama-index-embeddings-huggingface
+llama-index-vector-stores-faiss
+
+# Additional: For loading and parsing CSVs with different encodings (if needed)
+chardet
