@@ -1,6 +1,5 @@
-# ==================================================
 # 🧠 Mental Health Chatbot - Initial POC (Omdena Project)
-# ==================================================
+
 
 This repository contains the first version of a **Retrieval-Augmented Generation (RAG)** powered mental health chatbot built using LlamaIndex, FAISS, HuggingFace embeddings, and Groq's LLaMA 3.1 models. It was developed as part of an Omdena project to demonstrate how agentic workflows can improve support systems for mental health awareness and education.
 
@@ -20,7 +19,6 @@ This repository contains the first version of a **Retrieval-Augmented Generation
 ## 📁 Project Structure
 ```
 mental_health_chatbot/
-├── .env                 # Your API keys
 ├── .env.template        # Template with empty keys to copy from
 ├── app.py               # Main Streamlit application
 ├── agents.py            # Handles model + retriever + user query routing
@@ -47,8 +45,9 @@ pip install -r requirements.txt
 ```
 
 ### 2. 🔑 Set your API key
-Copy `.env.template` ➝ `.env` and add your **GROQ_API_KEY**.
+Copy `.env.template` ➝ `.env` and add your **GOOGLE_API_KEY** and **GROQ_API_KEY**.
 ```env
+GOOGLE_API_KEY=your-key-here
 GROQ_API_KEY=your-key-here
 ```
 
@@ -71,13 +70,6 @@ Screenshots are available under the `ScreenShots/` folder:
 
 ---
 
-## 📌 .env.template
-```env
-# .env.template
-GROQ_API_KEY=
-```
-
----
 
 ## ✅ TODOs for Future Iterations
 - Add session memory & multi-turn conversation
@@ -105,3 +97,4 @@ I gratefully acknowledge **Md Kaif** for preparing and sharing the labeled menta
 
 ## 🙌 Contributors
 This project is developed as part of a collaborative initiative under Omdena.
+If you have any feedback, comments, or questions, feel free to reach out to me directly via [GitHub Discussions](https://github.com/ShakibaRahimiaghdam/rag-mental-health-chatbot/discussions) or by creating an [issue](https://github.com/ShakibaRahimiaghdam/rag-mental-health-chatbot/issues).
