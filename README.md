@@ -82,7 +82,7 @@ Screenshots are available under the `ScreenShots/` folder:
 ---
 
 ## 📦 Data Acknowledgement
-I gratefully acknowledge **Md Kaif** for preparing and sharing the labeled mental health dataset used in this project.
+I gratefully acknowledge [Md Kaif](https://github.com/kaif-istan) for preparing and sharing the labeled mental health dataset used in this project.
 
 ---
 
